@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ab7-5w-vIn">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="qGY-TQ-r7e">
+            <objects>
+                <navigationController id="Ab7-5w-vIn" sceneMemberID="viewController">
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="357" height="400"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sP7-qd-ILV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Jhn-Ro-lK1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8OW-VC-UkO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-237.5" y="287"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Proposal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="357" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuU-Xd-NYJ">
+                                <rect key="frame" x="16" y="166" width="325" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="AVk-Yl-o1G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Your Proposal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="createProposalTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Grw-lz-N6e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqb-Y8-vzw">
+                                <rect key="frame" x="16" y="254" width="325" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="fzI-Uj-kwm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Propose!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="proposalTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rMA-RL-YLW"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="605-diamond.png" translatesAutoresizingMaskIntoConstraints="NO" id="tUv-vv-7Tm">
+                                <rect key="frame" x="16" y="266" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="FJ4-2a-Lsz"/>
+                                    <constraint firstAttribute="height" constant="56" id="nRp-yB-Np1"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="704-compose.png" translatesAutoresizingMaskIntoConstraints="NO" id="RUo-9a-7tm">
+                                <rect key="frame" x="16" y="178" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="56" id="9iJ-zN-lqB"/>
+                                    <constraint firstAttribute="height" constant="56" id="vMA-8o-1Dm"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wuU-Xd-NYJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="53J-6A-TkX"/>
+                            <constraint firstItem="RUo-9a-7tm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="BCQ-KK-5cK"/>
+                            <constraint firstItem="Bqb-Y8-vzw" firstAttribute="centerY" secondItem="tUv-vv-7Tm" secondAttribute="centerY" id="Cxw-5o-NlX"/>
+                            <constraint firstItem="Bqb-Y8-vzw" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="L8F-lg-btF"/>
+                            <constraint firstAttribute="centerY" secondItem="wuU-Xd-NYJ" secondAttribute="centerY" constant="44" id="TBz-0Y-dPt"/>
+                            <constraint firstItem="wuU-Xd-NYJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="hpn-z5-khT"/>
+                            <constraint firstItem="Bqb-Y8-vzw" firstAttribute="top" secondItem="wuU-Xd-NYJ" secondAttribute="bottom" constant="8" id="k2W-0G-R29"/>
+                            <constraint firstItem="wuU-Xd-NYJ" firstAttribute="centerY" secondItem="RUo-9a-7tm" secondAttribute="centerY" id="nt8-Dh-8Jk"/>
+                            <constraint firstItem="tUv-vv-7Tm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sBT-Ex-HYp"/>
+                            <constraint firstItem="Bqb-Y8-vzw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wQO-UH-Cxy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="noB-Ou-48v"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="357" height="500"/>
+                    <connections>
+                        <outlet property="createProposalImage" destination="RUo-9a-7tm" id="MTZ-H8-qSE"/>
+                        <outlet property="proposeImage" destination="tUv-vv-7Tm" id="c8u-E4-EGH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256.5" y="337"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="605-diamond.png" width="28" height="28"/>
+        <image name="704-compose.png" width="28" height="28"/>
+    </resources>
+</document>
