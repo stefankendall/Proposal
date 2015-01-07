@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		02B634CE1A5C77170078629F /* ProposeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B634CD1A5C77170078629F /* ProposeViewController.storyboard */; };
-		02B634D61A5C81EC0078629F /* PageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545905A7DA4D164BD68928CA /* PageTests.swift */; };
+		02B634D61A5C81EC0078629F /* PageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 545905A7DA4D164BD68928CA /* PageTests.m */; };
 		3F9B9D372A2F75B7638075BA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB82C6AA01245C0553E6CB35 /* libPods.a */; };
 		4A991CF92F9B142EB65E9C6A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB82C6AA01245C0553E6CB35 /* libPods.a */; };
-		5459007E494EE3A089D651F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545906DAF42680DE13C33890 /* HomeViewController.swift */; };
-		545902663589D97FB551A7E6 /* PageTests.swift in Resources */ = {isa = PBXBuildFile; fileRef = 545905A7DA4D164BD68928CA /* PageTests.swift */; };
+		54590011E9BBC9C6C40C6B39 /* CreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459074EE0E1B7B81F120C16 /* CreateViewController.m */; };
+		545902663589D97FB551A7E6 /* PageTests.m in Resources */ = {isa = PBXBuildFile; fileRef = 545905A7DA4D164BD68928CA /* PageTests.m */; };
 		545902FBEED31E3D1A2207BE /* 605-diamond@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 545906DD45E9187A3A2EBFA7 /* 605-diamond@2x.png */; };
 		545903976793FB9A9DE14CF1 /* Proposal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54590FA6B781D63EEC3214C0 /* Proposal.xcdatamodeld */; };
 		5459048847AB7DC52514D1D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 545903AABA68A947740C328E /* LaunchScreen.xib */; };
 		545904B4C2F8F493FFE726B6 /* CreateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5459080CE61FBC9B65E179E2 /* CreateViewController.storyboard */; };
 		545905221E336856AF2E342C /* 605-diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = 545906B855ABE9C48AF403A9 /* 605-diamond.png */; };
-		5459054B7675EAD5093823AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545901DAC20A1E20D7843B01 /* AppDelegate.swift */; };
 		545905C042299C239DD877AC /* 704-compose.png in Resources */ = {isa = PBXBuildFile; fileRef = 54590AD68E838BB4A4B43DF4 /* 704-compose.png */; };
-		5459071BA7A1981DB5EEE40D /* ProposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545900BD76896F040F3F882E /* ProposeViewController.swift */; };
 		545907AD65718EC9D24E4CA5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54590238DB8DD8071AEEC99D /* Images.xcassets */; };
 		545907E3827B94F5E5F778BF /* 605-diamond@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 545908110B8B7A1B56C3FF99 /* 605-diamond@3x.png */; };
 		545909FB3B46661D0AF772C9 /* 704-compose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54590C79C5245E83503AFA4A /* 704-compose@2x.png */; };
+		54590A014707B3B9E5564FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590ED1CED522A3D9D5286F /* AppDelegate.m */; };
+		54590A5A7B5B5F5A526C8B62 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590DCB33861934E978BA5A /* HomeViewController.m */; };
 		54590A777AB651F2ADA6CC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 545909102365B4553F30B27C /* Main.storyboard */; };
+		54590B2F1D099528D61FC67D /* PTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590013DD33CC9F4D48703C /* PTestCase.m */; };
 		54590BE5EDC7E7F687BDB6B2 /* 833-diamond-selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54590B6DFFAB927F9F43AA03 /* 833-diamond-selected@3x.png */; };
-		54590C25E5C43DAFA0BD198C /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545905D4B889E4A19E53A680 /* CreateViewController.swift */; };
-		54590D278C8CE784FAED9E4C /* ProposalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54590D32E04173947EDF840B /* ProposalTests.swift */; };
+		54590DB062B90609DCE83E64 /* ProposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459084B1C52810140906E16 /* ProposeViewController.m */; };
 		54590E31337DF3D774D18490 /* 833-diamond-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5459038A43BE75539DF96B2D /* 833-diamond-selected.png */; };
 		54590EA7EDC01974E51541D2 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459003AC622FC098C382CC7 /* Page.m */; };
 		54590EC67220C12F97403300 /* 833-diamond-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 54590A8D36AA7C57035F6717 /* 833-diamond-selected@2x.png */; };
@@ -48,23 +48,26 @@
 /* Begin PBXFileReference section */
 		02B634CD1A5C77170078629F /* ProposeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProposeViewController.storyboard; sourceTree = "<group>"; };
 		02B634CF1A5C7FF80078629F /* Proposal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Proposal-Bridging-Header.h"; sourceTree = "<group>"; };
+		54590013DD33CC9F4D48703C /* PTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTestCase.m; sourceTree = "<group>"; };
 		5459003AC622FC098C382CC7 /* Page.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
 		545900B337B25B91FAFD4AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		545900BD76896F040F3F882E /* ProposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposeViewController.swift; sourceTree = "<group>"; };
-		545901DAC20A1E20D7843B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		545900E1F00BAA68EADA6ED5 /* ProposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProposeViewController.h; sourceTree = "<group>"; };
 		54590238DB8DD8071AEEC99D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5459027703BCAE52243D88E0 /* PTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTestCase.h; sourceTree = "<group>"; };
 		54590285A90B48D07A113F93 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
 		545903895F9F27038696C0C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5459038A43BE75539DF96B2D /* 833-diamond-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "833-diamond-selected.png"; sourceTree = "<group>"; };
+		545903B97CE75EC8A58C0E33 /* CreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewController.h; sourceTree = "<group>"; };
 		545904F7AA6967592C1B4375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		545905A7DA4D164BD68928CA /* PageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTests.swift; sourceTree = "<group>"; };
-		545905D4B889E4A19E53A680 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		545905A7DA4D164BD68928CA /* PageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageTests.m; sourceTree = "<group>"; };
 		545906B855ABE9C48AF403A9 /* 605-diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "605-diamond.png"; sourceTree = "<group>"; };
-		545906DAF42680DE13C33890 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		545906DD45E9187A3A2EBFA7 /* 605-diamond@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "605-diamond@2x.png"; sourceTree = "<group>"; };
+		5459074EE0E1B7B81F120C16 /* CreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewController.m; sourceTree = "<group>"; };
+		545907796AC1F2DAE5C9683B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5459080BAF1C5756E231F0E7 /* ProposalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProposalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5459080CE61FBC9B65E179E2 /* CreateViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateViewController.storyboard; sourceTree = "<group>"; };
 		545908110B8B7A1B56C3FF99 /* 605-diamond@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "605-diamond@3x.png"; sourceTree = "<group>"; };
+		5459084B1C52810140906E16 /* ProposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProposeViewController.m; sourceTree = "<group>"; };
 		54590879518D8559F609F6D7 /* Proposal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proposal.xcdatamodel; sourceTree = "<group>"; };
 		545908E5F29E14B55CA59BE6 /* Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image.m; sourceTree = "<group>"; };
 		54590A8D36AA7C57035F6717 /* 833-diamond-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "833-diamond-selected@2x.png"; sourceTree = "<group>"; };
@@ -72,8 +75,10 @@
 		54590B362715E9DC3E299769 /* Page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
 		54590B6DFFAB927F9F43AA03 /* 833-diamond-selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "833-diamond-selected@3x.png"; sourceTree = "<group>"; };
 		54590C79C5245E83503AFA4A /* 704-compose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "704-compose@2x.png"; sourceTree = "<group>"; };
-		54590D32E04173947EDF840B /* ProposalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalTests.swift; sourceTree = "<group>"; };
+		54590D2CD634DCC56FF9C386 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		54590D76C1476AF332CBB40D /* 704-compose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "704-compose@3x.png"; sourceTree = "<group>"; };
+		54590DCB33861934E978BA5A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		54590ED1CED522A3D9D5286F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		54590F4332007D4E57BC200E /* Proposal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proposal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54590FCDF26E5C271FA20557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70425D32F5E02E34DFBB75B7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,8 +117,9 @@
 		545903188A3D896D5E0C91C6 /* Create */ = {
 			isa = PBXGroup;
 			children = (
-				545905D4B889E4A19E53A680 /* CreateViewController.swift */,
 				5459080CE61FBC9B65E179E2 /* CreateViewController.storyboard */,
+				5459074EE0E1B7B81F120C16 /* CreateViewController.m */,
+				545903B97CE75EC8A58C0E33 /* CreateViewController.h */,
 			);
 			path = Create;
 			sourceTree = "<group>";
@@ -166,7 +172,7 @@
 		545908D557A77939E36C769E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				545905A7DA4D164BD68928CA /* PageTests.swift */,
+				545905A7DA4D164BD68928CA /* PageTests.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,8 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				54590467B328B3BFFDD4B37E /* Supporting Files */,
-				54590D32E04173947EDF840B /* ProposalTests.swift */,
 				545908D557A77939E36C769E /* Models */,
+				54590013DD33CC9F4D48703C /* PTestCase.m */,
+				5459027703BCAE52243D88E0 /* PTestCase.h */,
 			);
 			path = ProposalTests;
 			sourceTree = "<group>";
@@ -187,14 +194,16 @@
 				545902BD797D816A9CD923C1 /* Supporting Files */,
 				54590238DB8DD8071AEEC99D /* Images.xcassets */,
 				545903AABA68A947740C328E /* LaunchScreen.xib */,
-				545901DAC20A1E20D7843B01 /* AppDelegate.swift */,
 				54590FA6B781D63EEC3214C0 /* Proposal.xcdatamodeld */,
 				545909102365B4553F30B27C /* Main.storyboard */,
-				545906DAF42680DE13C33890 /* HomeViewController.swift */,
 				54590392BD3E122A6A2FFC7E /* Images */,
 				54590DE440B6A8BC8E5A4B2A /* Propose */,
 				545903188A3D896D5E0C91C6 /* Create */,
 				54590F0A712BB8D992D19812 /* Models */,
+				54590ED1CED522A3D9D5286F /* AppDelegate.m */,
+				545907796AC1F2DAE5C9683B /* AppDelegate.h */,
+				54590DCB33861934E978BA5A /* HomeViewController.m */,
+				54590D2CD634DCC56FF9C386 /* HomeViewController.h */,
 			);
 			path = Proposal;
 			sourceTree = "<group>";
@@ -202,8 +211,9 @@
 		54590DE440B6A8BC8E5A4B2A /* Propose */ = {
 			isa = PBXGroup;
 			children = (
-				545900BD76896F040F3F882E /* ProposeViewController.swift */,
 				02B634CD1A5C77170078629F /* ProposeViewController.storyboard */,
+				5459084B1C52810140906E16 /* ProposeViewController.m */,
+				545900E1F00BAA68EADA6ED5 /* ProposeViewController.h */,
 			);
 			path = Propose;
 			sourceTree = "<group>";
@@ -309,7 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				545902663589D97FB551A7E6 /* PageTests.swift in Resources */,
+				545902663589D97FB551A7E6 /* PageTests.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,8 +414,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02B634D61A5C81EC0078629F /* PageTests.swift in Sources */,
-				54590D278C8CE784FAED9E4C /* ProposalTests.swift in Sources */,
+				02B634D61A5C81EC0078629F /* PageTests.m in Sources */,
+				54590B2F1D099528D61FC67D /* PTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,13 +423,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5459054B7675EAD5093823AA /* AppDelegate.swift in Sources */,
 				545903976793FB9A9DE14CF1 /* Proposal.xcdatamodeld in Sources */,
-				5459007E494EE3A089D651F4 /* HomeViewController.swift in Sources */,
-				5459071BA7A1981DB5EEE40D /* ProposeViewController.swift in Sources */,
-				54590C25E5C43DAFA0BD198C /* CreateViewController.swift in Sources */,
 				54590EA7EDC01974E51541D2 /* Page.m in Sources */,
 				54590FE4FAB573DDCAA7131C /* Image.m in Sources */,
+				54590A014707B3B9E5564FEA /* AppDelegate.m in Sources */,
+				54590A5A7B5B5F5A526C8B62 /* HomeViewController.m in Sources */,
+				54590DB062B90609DCE83E64 /* ProposeViewController.m in Sources */,
+				54590011E9BBC9C6C40C6B39 /* CreateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Proposal-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -572,6 +583,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Proposal-Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};
